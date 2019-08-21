@@ -103,17 +103,18 @@ Free accounts are still available.
 Created new Azure version: 
 https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/quickstarts-sdk/python-sdk#analyze-an-image
 
-RES_REGION=westeurope
-RES_GROUP=<resourcegroup-name>
-ACCT_NAME=<computervision-account-name>
+`pip3 install azure-cognitiveservices-vision-computervision`
 
-az cognitiveservices account create \
-    --resource-group $RES_GROUP \
-    --name $ACCT_NAME \
-    --location $RES_REGION \
-    --kind CognitiveServices \
-    --sku S0 \
-    --yes
+From your o/s command line: 
+```
+export RES_REGION='East US 2'
+export RES_GROUP='AI-ML-vision'
+export ACCT_NAME='CV-ComputerVision-kentest'
+export ACCOUNT_KEY='export ACCOUNT_KEY=YOURKEYVALUEHERE!!!'	
+export ACCOUNT_ENDPOINT='https://cv-computervision-kentest.cognitiveservices.azure.com/'
+python3 ImageTesting-azure.py 
+```
+
 
 
 ## Python setup issues on windows elsewhere: 
