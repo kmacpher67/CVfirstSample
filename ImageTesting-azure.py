@@ -19,11 +19,12 @@ credentials = CognitiveServicesCredentials(key)
 # Create client
 client = ComputerVisionClient(endpoint, credentials)
 
+# https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/quickstarts-sdk/python-sdk#analyze-an-image
 
 # Python Image Testing Example 
 # Variables
 
-_url = 'https://api.projectoxford.ai/vision/v1/analyses'
+_url = 'https://eastus2.api.cognitive.microsoft.com/vision/v2.0/tag?language=en'
 _key = '' #Here you have to paste your primary key
 _maxNumRetries = 1
 print ("key="+ _key)
