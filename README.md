@@ -100,6 +100,21 @@ Code samples for py.
 ^^^ this sample code is currenty broken cuz MS now calls this Cognitive Services via Azure. 
 Free accounts are still available. 
 
+Created new Azure version: 
+https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/quickstarts-sdk/python-sdk#analyze-an-image
+
+RES_REGION=westeurope
+RES_GROUP=<resourcegroup-name>
+ACCT_NAME=<computervision-account-name>
+
+az cognitiveservices account create \
+    --resource-group $RES_GROUP \
+    --name $ACCT_NAME \
+    --location $RES_REGION \
+    --kind CognitiveServices \
+    --sku S0 \
+    --yes
+
 
 ## Python setup issues on windows elsewhere: 
 
