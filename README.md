@@ -78,15 +78,27 @@ Targeted, precise, delivery of fertilizer or pesticides via the weeder bot would
 
 # Computer Vision Samples: 
 
+Code samples for py. 
+
+
+
 1. https://cloud.google.com/vision/pricing
 2. https://www.microsoft.com/cognitive-services/en-us/computer-vision-api
 3. https://www.tensorflow.org/versions/r0.10/get_started/index.html
 4. http://deeplearning4j.org/compare-dl4j-torch7-pylearn.html#ml
+5. https://www.microsoft.com/en-us/research/blog/securing-safe-water-through-cortana-intelligence/
+6. https://caffe.berkeleyvision.org/, https://caffe2.ai/, https://pytorch.org/
+7. Clarif.ai, https://thehive.ai, 
+
+
+
 
 
 ## Sample Programs (snippets)
 
 * Microsoft Oxford Computer Vision Sample CVfirstSample>C:\Python27\python.exe ImageTesting.py
+^^^ this sample code is currenty broken cuz MS now calls this Cognitive Services via Azure. 
+Free accounts are still available. 
 
 
 ## Python setup issues on windows elsewhere: 
