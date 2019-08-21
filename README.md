@@ -115,6 +115,27 @@ export ACCOUNT_ENDPOINT='https://cv-computervision-kentest.cognitiveservices.azu
 python3 ImageTesting-azure.py 
 ```
 
+Should be: 
+
+```
+urlImage= https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/commonObstacles/little-river.jpg
+
+----- TAGS  -----
+{'additional_properties': {}, 'name': 'tree', 'confidence': 0.9999257326126099, 'hint': None}
+{'additional_properties': {}, 'name': 'outdoor', 'confidence': 0.9980182647705078, 'hint': None}
+{'additional_properties': {}, 'name': 'water', 'confidence': 0.9950137138366699, 'hint': None}
+{'additional_properties': {}, 'name': 'lake', 'confidence': 0.9900420904159546, 'hint': None}
+{'additional_properties': {}, 'name': 'river', 'confidence': 0.9152545928955078, 'hint': None}
+{'additional_properties': {}, 'name': 'nature', 'confidence': 0.8710362911224365, 'hint': None}
+{'additional_properties': {}, 'name': 'bank', 'confidence': 0.6314202547073364, 'hint': None}
+{'additional_properties': {}, 'name': 'landscape', 'confidence': 0.6133949756622314, 'hint': None}
+{'additional_properties': {}, 'name': 'riparian zone', 'confidence': 0.5654633045196533, 'hint': None}
+{'additional_properties': {}, 'name': 'watercourse', 'confidence': 0.5331808924674988, 'hint': None}
+{'additional_properties': {}, 'name': 'plant', 'confidence': 0.42493799328804016, 'hint': None}
+{'additional_properties': {}, 'name': 'surrounded', 'confidence': 0.17745116353034973, 'hint': None}
+{'additional_properties': {}, 'name': 'shore', 'confidence': 0.16565096378326416, 'hint': None}
+----- MODELS -----
+```
 
 
 ## Python setup issues on windows elsewhere: 

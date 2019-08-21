@@ -56,8 +56,15 @@ data = None
 
 url = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Broadway_and_Times_Square_by_night.jpg/450px-Broadway_and_Times_Square_by_night.jpg"
 
-image_analysis = client.analyze_image(url,visual_features=[VisualFeatureTypes.tags])
+image_analysis = client.analyze_image(urlImage,visual_features=[VisualFeatureTypes.tags])
+print(image_analysis)
 
+print("----- TAGS  -----")
 for tag in image_analysis.tags:
     print(tag)
 
+print("----- MODELS -----")
+models = client.list_models()
+
+for x in models.models_property:
+    print(x)
